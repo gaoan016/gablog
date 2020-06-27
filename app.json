@@ -1,14 +1,44 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/find/index",
+    "pages/user/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "ColorUI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
   },
-  "style": "v2",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "tabBar": {
+    "color": "#d6dce2",
+    "selectedColor": "#0081ff",
+    "borderStyle": "white",
+    "list": [
+        {
+            "text": "首页",
+            "pagePath": "pages/index/index",
+            "iconPath": "/asset/images/home_.png",
+            "selectedIconPath": "/asset/images/home_select.png"
+        },
+        {
+          "text": "发现",
+          "pagePath": "pages/find/index",
+          "iconPath": "/asset/images/find_.png",
+          "selectedIconPath": "/asset/images/find_select.png"
+        },
+        {
+            "text": "个人中心",
+            "pagePath": "pages/user/index",
+            "iconPath": "/asset/images/center_.png",
+            "selectedIconPath": "/asset/images/center_select.png"
+        }
+    ],
+    "backgroundColor": "#FFFFFF"
+  },
   "sitemapLocation": "sitemap.json"
 }

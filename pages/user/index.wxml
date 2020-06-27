@@ -1,0 +1,5 @@
+<!--pages/user.wxml-->
+<text>个人中心页</text>
+<cu-custom bgColor="bg-gradual-pink">
+	<view slot="content">个人中心</view>
+</cu-custom>

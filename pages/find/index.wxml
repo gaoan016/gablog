@@ -1,0 +1,5 @@
+<!--pages/find/index.wxml-->
+<text>发现页</text>
+<cu-custom bgColor="bg-gradual-pink">
+	<view slot="content">发现</view>
+</cu-custom>
