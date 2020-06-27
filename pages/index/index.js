@@ -8,7 +8,19 @@ Page({
     CustomBar: app.globalData.CustomBar,
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    swiperList: [
+      {
+      type: 'image',
+      url: "/asset/images/banner/1.jpg"
+    },{
+      type: 'image',
+      url: "/asset/images/banner/2.jpg"
+    },{
+      type: 'image',
+      url: "/asset/images/banner/3.jpg"
+    },
+    ]
   },
   //事件处理函数
   bindViewTap: function() {

@@ -22,20 +22,20 @@
         {
             "text": "首页",
             "pagePath": "pages/index/index",
-            "iconPath": "/asset/images/home_.png",
-            "selectedIconPath": "/asset/images/home_select.png"
+            "iconPath": "/asset/images/nav/home_.png",
+            "selectedIconPath": "/asset/images/nav/home_select.png"
         },
         {
           "text": "发现",
           "pagePath": "pages/find/index",
-          "iconPath": "/asset/images/find_.png",
-          "selectedIconPath": "/asset/images/find_select.png"
+          "iconPath": "/asset/images/nav/find_.png",
+          "selectedIconPath": "/asset/images/nav/find_select.png"
         },
         {
             "text": "个人中心",
             "pagePath": "pages/user/index",
-            "iconPath": "/asset/images/center_.png",
-            "selectedIconPath": "/asset/images/center_select.png"
+            "iconPath": "/asset/images/nav/center_.png",
+            "selectedIconPath": "/asset/images/nav/center_select.png"
         }
     ],
     "backgroundColor": "#FFFFFF"
