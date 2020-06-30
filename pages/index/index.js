@@ -20,7 +20,9 @@ Page({
       type: 'image',
       url: "/asset/images/banner/3.jpg"
     },
-    ]
+    ],
+    TabCur: 0,
+    scrollLeft:0
   },
   //事件处理函数
   bindViewTap: function() {
@@ -63,5 +65,15 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  tabSelect(e) {
+    console.log(e.currentTarget.dataset.id)
+    this.setData({
+      TabCur: e.currentTarget.dataset.id,
+      scrollLeft: (e.currentTarget.dataset.id-1)*60
+    })
   }
 })
+
+
